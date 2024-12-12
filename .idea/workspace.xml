@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e8c0ded-a74e-4205-a291-e0efd0aff418" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/StableDiffusion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diffusion.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sd/decoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sd/encoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stablediffusion.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sd/clip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sd/diffusion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sd/decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/sd/decoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sd/encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/sd/encoder.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +30,9 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2pzdS6U0bMebCvfVDkyePxMKgZj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -74,7 +71,9 @@
       <updated>1733772835015</updated>
       <workItem from="1733772836150" duration="226000" />
       <workItem from="1733773089195" duration="1011000" />
-      <workItem from="1733774125758" duration="2412000" />
+      <workItem from="1733774125758" duration="5836000" />
+      <workItem from="1733918912592" duration="11964000" />
+      <workItem from="1734004297456" duration="12501000" />
     </task>
     <servers />
   </component>

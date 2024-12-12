@@ -1,9 +1,8 @@
 # Encoder part of the Variational Autoencoder
 import torch
-from altair.vega import padding
 from torch import nn
 from torch.nn import functional as F
-from torchgen.api.types import kernel_signature
+
 
 from decoder import VAE_AttentionBlock, VAE_ResidualBlock
 
@@ -73,6 +72,8 @@ class VAE_Encoder(nn.Sequential):
     def forward(self, x: torch.Tensor, noise: torch.Tensor) -> torch.Tensor:
         # x     : [Batch_size, Channel=3,     Height=512, Width=512]
         # noise : [Batch_size, Output_Channels, Height/8, Width/8]
+        # Encoder学到的是p(z|x)的分布，即给定输入x，学到的是z的分布,其中，z是一个latent var，p(z|x)是一个高斯分布，由mean和variance表示
+        # 得到这个分布之后，我们需要一个确定的数值作为输出，这就意味着我们需要对这个分布进行采样
 
         for module in self:
             # asymmetric padding
